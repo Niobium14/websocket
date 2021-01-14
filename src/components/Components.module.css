@@ -1,0 +1,23 @@
+/* CARDS */
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 20%;
+}
+.cards > * {
+  flex: 1 1 auto;
+  margin: 10px;
+}
+
+/* INFO */
+.info {
+  text-align: center;
+}
+/* HEADER */
+.header {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
